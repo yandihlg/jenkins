@@ -8,7 +8,7 @@ pipeline {
                 echo 'Hello World'
                 script {
                     println("hola" + ' ' + "mundo")
-                    def person = crearPerson('Javier', 'Garcia')
+                    def person = callperson(imprimir:"esto es una pinga")
                 }
             }
         }

@@ -7,7 +7,7 @@ pipeline {
             steps {
                 echo 'Hello World'
                 script {
-                    println(hola + ' ' + mundo)
+                    println("hola" + ' ' + "mundo")
                     def person = crearPerson('Javier', 'Garcia')
                 }
             }

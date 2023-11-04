@@ -13,7 +13,6 @@ pipeline {
             steps {
                 echo 'Hello World'
                 script {
-                    def person = new es.yan.Person("Yan", "Garcia")
 
                     person.printName()
                     person.printSecondName()

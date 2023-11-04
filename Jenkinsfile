@@ -17,7 +17,7 @@ pipeline {
                     person.printName()
                     person.printSecondName()
                     person.crearAula()
-                    person.printInstanceOf(new Profesor('Juan', 'Perez', 'Matematicas', '1'))
+                    person.printInstanceOf(new Profesor('Juan', 'Perez', 'Matematicas', 1))
                     person.printAula()
 
                 }

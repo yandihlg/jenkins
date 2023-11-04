@@ -1,6 +1,6 @@
 @Library('library') _
 
-import es.yan.Person
+import es.yan.Persona
 import es.yan.Profesor
 import es.yan.Estudiante
 import es.aula.Aula

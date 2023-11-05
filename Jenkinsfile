@@ -4,6 +4,7 @@ import es.yan.Persona
 import es.yan.Profesor
 import es.yan.Estudiante
 import es.aula.Aula
+import es.utils.Utils
 
 pipeline {
     agent any
@@ -22,6 +23,7 @@ pipeline {
 
                     def aula = new Aula()
                     aula.addPersona(new Profesor('Juan', 'Perez', 'Matematicas', 1))
+                    Utils.printStaticMethod()
 
                 }
             }

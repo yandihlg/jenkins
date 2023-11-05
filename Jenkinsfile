@@ -20,6 +20,9 @@ pipeline {
                     person.printInstanceOf(new Profesor('Juan', 'Perez', 'Matematicas', 1))
                     person.printAula()
 
+                    def aula = new Aula()
+                    aula.addPersona(new Profesor('Juan', 'Perez', 'Matematicas', 1))
+
                 }
             }
         }

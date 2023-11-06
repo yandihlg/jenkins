@@ -23,7 +23,7 @@ pipeline {
 
                     def aula = new Aula()
                     aula.addPersona(new Profesor('Juan', 'Perez', 'Matematicas', 1))
-                    println(Utils.printStaticMethod())
+                    Utils.printStaticMethod()
 
                 }
             }
